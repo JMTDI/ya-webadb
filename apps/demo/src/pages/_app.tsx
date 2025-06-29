@@ -57,6 +57,11 @@ const ROUTES = [
         name: "ADB over WiFi",
     },
     {
+        url: "/eGate auto-installer",
+        icon: Icons.Phone,
+        name: "eGate auto-installer", 
+    },
+    {
         url: "/install",
         icon: Icons.Box,
         name: "Install APK",
