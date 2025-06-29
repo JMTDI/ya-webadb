@@ -371,7 +371,7 @@ const ChromeDevToolsPage: NextPage = observer(function ChromeDevTools() {
     return (
         <Stack {...RouteStackProps}>
             <Head>
-                <title>Chrome Remote Debugging - Tango</title>
+                <title>Chrome Remote Debugging - WADB</title>
             </Head>
 
             {STATE.browsers.length === 0 ? (
