@@ -143,7 +143,7 @@ const FrameBuffer: NextPage = (): JSX.Element | null => {
     return (
         <Stack {...RouteStackProps}>
             <Head>
-                <title>Screen Capture - Tango</title>
+                <title>Screen Capture - WADB</title>
             </Head>
 
             <CommandBar
