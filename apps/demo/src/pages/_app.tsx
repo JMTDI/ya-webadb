@@ -165,7 +165,7 @@ function App({ Component, pageProps }: AppProps) {
                     />
 
                     <StackItem grow>
-                        <div className={classes.title}>Tango</div>
+                        <div className={classes.title}>WADB</div>
                     </StackItem>
 
                     <IconButton
