@@ -810,7 +810,7 @@ const LogcatPage: NextPage = () => {
     return (
         <Stack {...RouteStackProps}>
             <Head>
-                <title>Logcat - Tango</title>
+                <title>Logcat - WADB</title>
             </Head>
 
             <CommandBar items={state.commandBar} />
