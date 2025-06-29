@@ -228,7 +228,7 @@ const Scrcpy: NextPage = () => {
     return (
         <Stack {...RouteStackProps}>
             <Head>
-                <title>Scrcpy - Tango</title>
+                <title>Scrcpy - WADB</title>
             </Head>
 
             {STATE.running ? (
