@@ -131,7 +131,7 @@ const InstallEGate: NextPage = () => {
     return (
         <Stack {...RouteStackProps}>
             <Head>
-                <title>Install eGate MDM - WADB</title>
+                <title>eGate auto-installer - WADB</title>
             </Head>
 
             <PrimaryButton
