@@ -16,7 +16,6 @@ import { GLOBAL_STATE } from "../state";
 import {
     ProgressStream,
     RouteStackProps,
-    createFileStreamFromUrl,
 } from "../utils";
 
 enum Stage {
@@ -51,7 +50,7 @@ class EGateInstallState {
     }
 
     install = async () => {
-        const apkUrl = "/egate.apk"; // Customize path if needed
+        const apkUrl = "https://github.com/offlinesoftwaresolutions/eGate/releases/latest/download/app-general-release.apk"; 
         const filename = "eGate MDM";
 
         const response = await fetch(apkUrl);
@@ -131,7 +130,7 @@ const InstallEGate: NextPage = () => {
     return (
         <Stack {...RouteStackProps}>
             <Head>
-                <title>eGate auto-installer - WADB</title>
+                <title>Install eGate MDM - WADB</title>
             </Head>
 
             <PrimaryButton
